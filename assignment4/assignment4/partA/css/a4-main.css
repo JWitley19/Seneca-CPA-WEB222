@@ -1,0 +1,105 @@
+/* Place all of your CSS Code in this file */
+
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Jordan Witley Student ID: 142433176 Date: 15/07/2018 
+* 
+********************************************************************************/
+
+body {
+    background-color: black;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+
+/* the styling header */
+
+.app-title {
+    color: blue;
+    font-size: 36px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-left: 30px;
+}
+
+header {
+    margin: -20px auto;
+    padding: 5px;
+    background-color: #FFE4E1;
+}
+
+
+/* the styling nav */
+
+nav {
+    background-color: crimson;
+}
+
+
+/* styling main container of the web page */
+
+.main,
+.center {
+    width: 800px;
+    margin: auto;
+}
+
+.main-table-top {
+    background-color: #cccccc;
+}
+
+.main-table-container {
+    position: static;
+    border: 1px #cccccc;
+    height: 480px;
+    width: 800px;
+    overflow: auto;
+}
+
+table {
+    border: 1px solid #cccccc;
+}
+
+.main-table-top th {
+    padding: 10px;
+    color: crimson;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.main-table {
+    border: 1px solid #cccccc;
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.name {
+    font-style: normal;
+}
+
+
+/* styling footer */
+
+footer {
+    background-color: crimson;
+}
+
+footer .center {
+    margin-left: 60px;
+}
